@@ -1,0 +1,19 @@
+2023-07-23T10:24:13+00:00 CRITICAL syntax error, unexpected '<', expecting end of file di D:\xampp\htdocs\ecommerce\wp-content\plugins\woocommerce\templates\content-single-product.php pada baris 36
+
+2023-07-23T10:24:26+00:00 CRITICAL syntax error, unexpected '<', expecting end of file di D:\xampp\htdocs\ecommerce\wp-content\plugins\woocommerce\templates\content-single-product.php pada baris 36
+
+2023-07-23T10:36:23+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' di D:\xampp\htdocs\ecommerce\wp-content\plugins\woocommerce\templates\content-single-product.php pada baris 48
+
+2023-07-23T10:37:02+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' di D:\xampp\htdocs\ecommerce\wp-content\plugins\woocommerce\templates\content-single-product.php pada baris 48
+
+2023-07-23T10:43:14+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' di D:\xampp\htdocs\ecommerce\wp-content\plugins\woocommerce\templates\content-single-product.php pada baris 48
+
+2023-07-23T17:59:34+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_shipping() in D:\xampp\htdocs\ecommerce\wp-content\plugins\woocommerce\templates\checkout\thankyou.php:47
+Stack trace:
+#0 D:\xampp\htdocs\ecommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\xampp\htdocs\ecommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(322): wc_get_template('checkout/thanky...', Array)
+#2 D:\xampp\htdocs\ecommerce\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(130)
+#3 D:\xampp\htdocs\ecommerce\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 D:\xampp\htdocs\ecommerce\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 D:\xampp\htdocs\ecommerce\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che di D:\xampp\htdocs\ecommerce\wp-content\plugins\woocommerce\templates\checkout\thankyou.php pada baris 47
+
